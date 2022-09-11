@@ -41,4 +41,23 @@ body {
   color: hsl(218deg, 44%, 22%);
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   opacity: 0.57;
+}
+
+@media (max-width: 480px) {
+  .card-container .card {
+    width: 200px;
+    height: 355px;
+  }
+  .card-container .card img {
+    width: 180px;
+    height: 180px;
+  }
+  .card-container .card .text-1 {
+    font-size: 17px;
+    padding: 0 12px;
+  }
+  .card-container .card .text-2 {
+    font-size: 11px;
+    padding: 0 12px;
+  }
 }/*# sourceMappingURL=style.css.map */
