@@ -1,12 +1,14 @@
-body{
+body {
     background-color: hsl(212, 45%, 89%);
     box-sizing: border-box;
 }
+
 .card-container {
     height: 97vh;
     display: flex;
     justify-content: center;
     align-items: center;
+
     .card {
         background-color: white;
         color: black;
@@ -42,5 +44,29 @@ body{
             font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
             opacity: 0.57;
         }
+    }
+}
+
+@media (max-width:480px) {
+   .card-container .card {
+        width: 200px;
+        height: 355px;
+        img {
+            width: 180px;
+            height: 180px;
+        }
+
+        .text-1 {
+            font-size: 17px;
+            // text-align: center;
+            padding: 0 12px;
+        }
+
+        .text-2 {
+            font-size: 11px;
+            // text-align: center;
+            padding: 0 12px;
+        }
+
     }
 }
