@@ -1,0 +1,44 @@
+body {
+  background-color: hsl(212deg, 45%, 89%);
+  box-sizing: border-box;
+}
+
+.card-container {
+  height: 97vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-container .card {
+  background-color: white;
+  color: black;
+  display: flex;
+  flex-flow: column wrap;
+  width: 280px;
+  height: 435px;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 15px;
+  padding-bottom: 0px;
+}
+.card-container .card img {
+  width: 250px;
+  height: 250px;
+  border-radius: 15px;
+}
+.card-container .card .text-1 {
+  font-size: 19px;
+  text-align: center;
+  padding: 0 20px;
+  color: hsl(218deg, 44%, 22%);
+  font-weight: 700;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+.card-container .card .text-2 {
+  font-size: 14px;
+  text-align: center;
+  padding: 0 30px;
+  color: hsl(218deg, 44%, 22%);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  opacity: 0.57;
+}/*# sourceMappingURL=style.css.map */
